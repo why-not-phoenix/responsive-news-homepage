@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body class="bg-off-white text-blue-2">
+  <header class="container flex">
+    <nav class="container--nav flex">
+      <div class="nav-logo">
+        <img src="assets/images/logo.svg" alt="company logo">
+      </div>
+      <div class="nav-menu">
+        <button id="menu-open-btn" type="button"><img src="assets/images/icon-menu.svg" alt="menu icon"></button>
+        <ul id="menu-items">
+          <button id="menu-close-btn" type="button"><img src="assets/images/icon-menu-close.svg" alt="menu icon"></button>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container grid">
+    <section class="hero grid">
+      <div class="hero-img">
+        <picture>
+          <source media="(max-width: 950px)" srcset="assets/images/image-web-3-mobile.jpg">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="web 3.0 image">
+        </picture>
+      </div>
+      <h1 class="text-blue-3 bolder">The Bright Future of Web 3.0?</h1>
+      <div class="hero-title flex">
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+         But is it really fulfilling its promise?</p>
+        <button type="button" class="btn bg-red-1 text-blue-3 bold">Read more</button>
+      </div>
+    </section>
+
+    <section class="container--new-articles bg-blue-3">
+      <h2 class="text-orange-1 bold">New</h2>
+      <article>
+        <h3 class="text-blue-1 bold"><a href="#">Hydrogen VS Electric Cars</a></h3>
+        <p class="text-blue-1">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </article>
+      <article>
+        <h3 class="text-blue-1 bold"><a href="#">The Downsides of AI Artistry</a></h3>
+        <p class="text-blue-1">What are the possible adverse effects of on-demand AI image generation?</p>
+      </article>
+      <article>
+        <h3 class="text-blue-1 bold"><a href="#">Is VC Funding Drying Up?</a></h3>
+        <p class="text-blue-1">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </article>
+    </section>
+
+    <section class="container--trending-articles grid">
+      <article class="flex">
+        <img src="assets/images/image-retro-pcs.jpg" alt="retro PCs">
+        <div>
+          <h3 class="text-red-1 bold">01</h3>
+          <p class="text-blue-3 bold"><a href="#">Reviving Retro PCs</a></p>
+          <p>What happens when old PCs are given modern upgrades?</p> 
+        </div>
+      </article>
+      <article class="flex">
+        <img src="assets/images/image-top-laptops.jpg" alt="laptop keyboard">
+        <div>
+          <h3 class="text-red-1 bold">02</h3>
+          <p class="text-blue-3 bold"><a href="#">Top 10 Laptops of 2022</a></p>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </article>
+      <article class="flex">
+        <img src="assets/images/image-gaming-growth.jpg" alt="game-pad">
+        <div>
+          <h3 class="text-red-1 bold">03</h3>
+          <p class="text-blue-3 bold"><a href="#">The Growth of Gaming</a></p>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+  
+  <footer class="container">
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p> 
+      <p>Coded by <a href="#">Dominion (why-not-phoenix)</a>.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
