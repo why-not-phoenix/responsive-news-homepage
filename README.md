@@ -40,8 +40,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/why-not-phoenix/responsive-news-homepage](https://github.com/why-not-phoenix/responsive-news-homepage)
+- Live Site URL: [https://why-not-phoenix.github.io/responsive-news-homepage/](https://why-not-phoenix.github.io/responsive-news-homepage/)
 
 ## My process
 
@@ -93,9 +93,8 @@ I used AI tools sparingly as an assistant for phrasing and for quick checks whil
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@why-not-phoenix](https://www.frontendmentor.io/profile/why-not-phoenix)
+- Twitter - [@dominion_onoja](https://www.twitter.com/dominion_onoja)
 
 ## Acknowledgments
 
